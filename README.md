@@ -4,6 +4,18 @@ This used to be sold on CodeCanyon, but due to time restraints and other I have 
 ## What is it?
 This lets you build your own AdFly-like service and make money of it.
 
+This comes with a bunch of features, most notably:
+* Campaign hosting
+* Link previews with ads (banner/interstitial)
+* Full, extensive admin panel
+* Fund management
+* Withdrawal Services
+* Translated Pages
+* Custom Pages
+* Registration/Login
+* Modular Theme using Smarty
+* ...more
+
 ## Install
 Check out the Documentation folder, it'll tell you everything.
 
