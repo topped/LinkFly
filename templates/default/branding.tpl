@@ -1,0 +1,1 @@
+<p class="subtle"><strong>{$lang_186} <a href="http://scriptastic.co/">LinkFly PHP Script v{$setting_site_version}</a></strong></p>

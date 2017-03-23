@@ -1,0 +1,27 @@
+options -multiviews
+options All -Indexes
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule ^home$ index.php
+RewriteRule ^dashboard$ dashboard.php
+RewriteRule ^advertiser$ advertiser.php
+RewriteRule ^add_campaign$ add_campaign.php
+RewriteRule ^edit_campaign$ edit_campaign.php
+RewriteRule ^stats$ view_statistics.php
+RewriteRule ^login$ login.php
+RewriteRule ^logout$ logout.php
+RewriteRule ^withdrawals$ withdrawals.php
+RewriteRule ^register$ register.php
+RewriteRule ^report$ report.php
+RewriteRule ^referrals$ referrals.php
+RewriteRule ^contact$ contact.php
+RewriteRule ^add_wallet$ add_wallet.php
+RewriteRule ^payment_page$ payment_page.php
+RewriteRule ^forgot_password$ forgot_password.php
+RewriteRule ^my_account$ my_account.php
+RewriteRule ^(admin)($|/) - [L]
+RewriteRule ^([A-Za-z0-9-]+)/?$ view_link.php?s=$1 [L]
+RewriteRule ^page_([^/]+)/?$ pages.php?slug=$1 [L]
+</IfModule>

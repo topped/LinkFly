@@ -1,0 +1,100 @@
+/***************************************************************************************************
+  * | LinkFly | AdFly Clone PHP Script
+  * | Support: http://scriptastic.co / support@scriptastic.co
+  * | By using this software you agree that you have read and acknowledged our End-User License
+  * | agreement available at http://scriptastic.co/linkfly/eula and to be bound by it.
+  * | Copyright (c) Scriptastic All rights reserved.
+ **************************************************************************************************/
+
+.copyright {
+    font-size : 12px;
+    color : #696969;
+}
+.well {
+    background-color : #ffffff;
+    color : #111;
+}
+.footer {
+    min-height : 80px;
+}
+.navbar-fixed-top {
+    font-size : 11px;
+    text-transform : uppercase;
+}
+.stat-body {
+    padding : 0;
+}
+tfoot {
+    display : table-header-group;
+}
+.button-bar {
+    margin-bottom : 15px;
+}
+.delete-form {
+    margin-top : 5px;
+}
+.table {
+    margin-bottom : 0;
+}
+.btn-action {
+    width : 100px;
+}
+.table a:not(.btn) {
+    color : #3b3b3b;
+    text-decoration : underline;
+}
+.navbar .divider-vertical {
+    height : 50px;
+    margin : 0 9px;
+    border-right : 1px solid #ffffff;
+    border-left : 1px solid #f2f2f2;
+}
+.navbar-inverse .divider-vertical {
+    border-right-color : #222222;
+    border-left-color : #111111;
+}
+.admin-link {
+    text-align : right;
+    font-size : 12px;
+    padding : 20px 60px 20px 20px;
+}
+.admin-link a {
+    color : #ececec;
+}
+.admin-link a:hover {
+    color : #c0c0c0;
+}
+#main-nav {
+    margin-bottom : 0;
+}
+.navbar-nav > li > a {
+    padding-top : 5px !important ;
+    padding-bottom : 5px !important ;
+}
+.navbar {
+    min-height : 32px !important ;
+}
+#search-delete, #search-edit {
+    display : none;
+}
+#header {
+    background : #006284;
+    color : #ffffff;
+    height : 60px;
+    vertical-align : middle;
+    border-top : 1px solid #00506c;
+}
+#logo-heading {
+    font-weight : bold;
+    margin-top : 18px;
+}
+#logo-heading a:hover {
+    color : #ffffff;
+    text-decoration : none;
+}
+.subtext {
+    font-weight : 100;
+}
+#scriptastic {
+    width : 140px;
+}
